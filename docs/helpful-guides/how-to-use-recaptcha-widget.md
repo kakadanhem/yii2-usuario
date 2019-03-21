@@ -117,11 +117,6 @@ Finally, we have to configure the module and the application to ensure is using 
         'classMap' => [
             'RecoveryForm' => 'app\forms\RecoveryForm'
         ], 
-        'controllerMap' => [
-            'recovery' => [
-                 'class' => '\app\controllers\RecoveryController' 
-             ]
-        ]
     ]
 ], 
 
